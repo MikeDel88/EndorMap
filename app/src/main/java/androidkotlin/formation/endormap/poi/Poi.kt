@@ -1,4 +1,4 @@
-package androidkotlin.formation.endormap
+package androidkotlin.formation.endormap.poi
 
 /**
  * iconId and iconColor are mutually exclusive.

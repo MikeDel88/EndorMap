@@ -1,6 +1,7 @@
-package androidkotlin.formation.endormap
+package androidkotlin.formation.endormap.poi
 
 import android.graphics.Color
+import androidkotlin.formation.endormap.R
 
 const val GREY_HAVENS = "Grey Havens"
 const val HOBBITON = "Hobbiton"

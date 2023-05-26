@@ -1,14 +1,10 @@
-package androidkotlin.formation.endormap
+package androidkotlin.formation.endormap.location
 
 import android.content.Context
-import android.location.Location
 import androidx.lifecycle.LiveData
 import com.google.android.gms.location.*
 import com.google.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY
 import timber.log.Timber
-
-data class LocationData(val location: Location? = null,
-                        val exception: Exception? = null)
 
 class LocationLiveData(context: Context): LiveData<LocationData>() {
 
